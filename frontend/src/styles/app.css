@@ -69,8 +69,32 @@
   width: auto;
 }
 
+.footer-nft-button {
+  margin-bottom: 20px;
+}
+
 .opensea-button {
-  background-color: rgb(32, 129, 226);
+  background: -webkit-linear-gradient(left, #c657a1, #35aee2);
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+  margin-right: 10px;
+  
+}
+.rariable-button {
+  background: -webkit-linear-gradient(left, #b81919, #5f673b);
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+  
+}
+
+.opensea-button a {
+  color: white;
+  text-decoration: none;
+}
+
+.rariable-button a {
+  color: white;
+  text-decoration: none;
 }
 
 .mint-count {
