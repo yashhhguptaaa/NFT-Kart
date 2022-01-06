@@ -2,7 +2,7 @@ import './styles/app.css';
 import twitterLogo from './assets/twitter-logo.svg';
 import React, {useState, useEffect} from "react";
 import {ethers} from "ethers";
-import myEpicNft from "./nft-Contract/artifacts/contracts/MyEpicNFT.sol/MyEpicNFT.json";
+import myEpicNft from "./artifacts/myEpicNft.json";
 
 // Constants
 const TWITTER_HANDLE = 'yashhhguptaaa';
